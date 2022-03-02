@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font-kit/css/all.css" />
+    <link rel="stylesheet" href="BMI.CSS" />
+    <title>BMI</title>
+  </head>
+  <body>
+    <header>
+      <h1>MBI Calculator</h1>
+    </header>
+
+    <div class="form">
+      <div class="inputs">
+        <input
+          type="number"
+          placeholder="height"
+          min="1"
+          max="150"
+          id="height"
+        />
+        <input
+          type="number"
+          placeholder="weight"
+          min="1"
+          max="150"
+          id="weight"
+        />
+      </div>
+
+      <div id="btn">
+        <button type="submit" class="submit">submit</button>
+      </div>
+    </div>
+
+    <ul id="Result"></ul>
+
+    <div id="Erorr">
+      <i class="fa fa-ban"></i>
+      <p>Please enter the correct information</p>
+    </div>
+  </body>
+  <script src="BMI.JS"></script>
+</html>
+<!-- <i class="fas fa-times"></i> -->
